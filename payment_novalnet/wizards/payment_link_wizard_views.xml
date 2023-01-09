@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="payment_link_wizard_view_form" model="ir.ui.view">
+      <field name="name">novalnet.payment.link.wizard.form</field>
+      <field name="model">payment.link.wizard</field>
+      <field name="inherit_id" ref="payment.payment_link_wizard_view_form"/>
+      <field name="arch" type="xml">
+        <field name="acquirer_id" position="after">
+          <field name="hide_novalnet_payment_methods" invisible="1"/>
+          <field name="available_novalnet_payment_method_ids" widget="many2many_tags" attrs="{'invisible': [('hide_novalnet_payment_methods', '=', True)]}"/>
+        </field>
+      </field>
+    </record>
+</odoo>
