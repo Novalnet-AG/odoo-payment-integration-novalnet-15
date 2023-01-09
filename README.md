@@ -42,8 +42,6 @@ To accept and process Novalnet payments in Odoo, you need a Novalnet merchant ac
 *	Prepayment
 *	Invoice with payment guarantee
 *	Direct Debit SEPA with payment guarantee
-*	Instalment by Invoice
-*	Instalment by Direct Debit SEPA
 *	iDEAL
 *	Sofort
 *	giropay
@@ -55,7 +53,10 @@ To accept and process Novalnet payments in Odoo, you need a Novalnet merchant ac
 *	PostFinance E-Finance
 *	Bancontact
 *	Multibanco
-*	Carrier billing
+* Online bank transfer
+* Trustly
+* Alipay
+* WeChat Pay
 
 ## Documentation
 A detailed installation guide including all the Odoo payment integration features is included in this package.
