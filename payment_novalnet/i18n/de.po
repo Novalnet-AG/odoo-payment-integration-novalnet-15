@@ -4,18 +4,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-29 05:27+0000\n"
-"PO-Revision-Date: 2022-12-29 21:02+0530\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2023-01-09 15:24+0000\n"
+"PO-Revision-Date: 2023-01-10 11:52+0530\n"
 "Language-Team: \n"
-"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Language: de\n"
 
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_payment_transaction__novalnet_bank_account
@@ -33,13 +33,13 @@ msgid "${object.subject}"
 msgstr ""
 
 #. module: payment_novalnet
-#: code:addons/payment_novalnet/models/payment_provider.py:0
+#: code:addons/payment_novalnet/models/payment_acquirer.py:0
 #, python-format
 msgid "'While notifying some data has been changed. The hash check failed"
 msgstr ""
 
 #. module: payment_novalnet
-#: code:addons/payment_novalnet/models/payment_provider.py:0
+#: code:addons/payment_novalnet/models/payment_acquirer.py:0
 #, python-format
 msgid "'While notifying some data has been changed. The hash validation failed"
 msgstr ""
@@ -133,89 +133,80 @@ msgstr ""
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
 msgid "<b>Account holder : </b>"
-msgstr "<b>Kontoinhaber: </b>"
+msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
 msgid "<b>BANK :</b>"
-msgstr "<b>BANK :</b>"
+msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
 msgid "<b>BIC :</b>"
-msgstr "<b>BIC :</b>"
+msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
 msgid "<b>IBAN :</b>"
-msgstr "<b>BIC :</b>"
+msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
 msgid "<b>Payment Reference-1 :</b>"
-msgstr "<b>Verwendungszweck 1:</b>"
+msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
 msgid "<b>Payment Reference-2 :</b>"
-msgstr "<b>Verwendungszweck 2:</b>"
+msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
 msgid "<b>Place :</b>"
-msgstr "<b>Ort :</b>"
+msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_guranteed_sepa
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_sepa
 msgid "<small><b>BIC</b></small>"
-msgstr "<small><b>BIC</b></small>"
+msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_guranteed_invoice
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_guranteed_sepa
 msgid "<small><b>D.O.B</b></small>"
-msgstr "<small><b>D.O.B</b></small>"
+msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_guranteed_sepa
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_sepa
 msgid "<small><b>IBAN</b></small>"
-msgstr "<small><b>IBAN</b></small>"
+msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
 msgid "<span style=\"font-weight:bold;\">Payment type:</span>"
-msgstr "<span style=\"font-weight:bold;\">Die Zahlungsart:</span>"
-
-#. module: payment_novalnet
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_confirmation
-msgid ""
-"<span>Unfortunately your order can not be confirmed as the amount of your "
-"payment does not match the amount of your cart.\n"
-"                    Please contact the responsible of the shop for more "
-"information.</span>"
 msgstr ""
 
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_transaction_bank__account_holder
 msgid "Account holder name"
-msgstr "Name des Kontoinhabers"
+msgstr "Kontoinhaber name"
 
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_method__active
 msgid "Active"
-msgstr "Aktiv"
+msgstr "Active"
 
 #. module: payment_novalnet
-#: model:ir.model.fields,field_description:payment_novalnet.field_payment_provider__novalnet_webhook_testing
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_webhook_testing
 msgid "Allow manual testing of notification/webhook URL"
 msgstr "Manuelles Testen der Benachrichtigungs- / Webhook-URL erlauben"
 
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_transaction_bank__bic
 msgid "BIC"
-msgstr "BIC"
+msgstr ""
 
 #. module: payment_novalnet
 #: model:ir.model.fields.selection,name:payment_novalnet.selection__novalnet_callback__event_type__chargeback
@@ -225,7 +216,7 @@ msgstr "CHARGEBACK"
 #. module: payment_novalnet
 #: model:ir.model.fields.selection,name:payment_novalnet.selection__novalnet_callback__event_type__credit
 msgid "CREDIT"
-msgstr "Gutschrift"
+msgstr "CREDIT"
 
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_callback__is_done
@@ -241,7 +232,7 @@ msgstr ""
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_method__capture_manually
 msgid "Capture manually from shop"
-msgstr ""
+msgstr "Manuelles Erfassen im Laden"
 
 #. module: payment_novalnet
 #: code:addons/payment_novalnet/models/novalnet_callback.py:0
@@ -250,8 +241,8 @@ msgid ""
 "Chargeback executed successfully for the TID: %(parent_tid)s amount: "
 "%(amount)s on %(datetime)s . The subsequent TID: %(child_tid)s"
 msgstr ""
-"Chargeback erfolgreich importiert für die TID: %(parent_tid)s Betrag: "
-"%(amount)s am %(datetime)s. Uhr. TID der Folgebuchung: %(child_tid)s"
+"Chargeback erfolgreich importiert für die TID:%(parent_tid)s Betrag: "
+"%(amount)s am %(datetime)s . TID der Folgebuchung:%(child_tid)s"
 
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_transaction_store__city
@@ -259,14 +250,9 @@ msgid "City of the store"
 msgstr ""
 
 #. module: payment_novalnet
-#: model:ir.model.fields,field_description:payment_novalnet.field_payment_provider__novalnet_client_key
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_client_key
 msgid "Client Key"
 msgstr "Schlüsselkunde"
-
-#. module: payment_novalnet
-#: model:ir.model.fields,field_description:payment_novalnet.field_payment_provider__code
-msgid "Code"
-msgstr ""
 
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_method__company_id
@@ -274,7 +260,7 @@ msgid "Company"
 msgstr ""
 
 #. module: payment_novalnet
-#: code:addons/payment_novalnet/models/payment_provider.py:0
+#: code:addons/payment_novalnet/models/payment_acquirer.py:0
 #, python-format
 msgid "Could not establish the connection to the API."
 msgstr ""
@@ -298,7 +284,7 @@ msgid "Could not found order number"
 msgstr ""
 
 #. module: payment_novalnet
-#: code:addons/payment_novalnet/models/payment_provider.py:0
+#: code:addons/payment_novalnet/models/payment_acquirer.py:0
 #, python-format
 msgid "Could not found tariff information"
 msgstr ""
@@ -360,8 +346,8 @@ msgid ""
 "Portal for the TID: %(child_tid)s"
 msgstr ""
 "Die Gutschrift für die TID ist erfolgreich eingegangen: %(parent_tid)s mit "
-"Betrag am %(amount)s.  Bitte entnehmen Sie die TID den Einzelheiten der "
-"Bestellung bei BEZAHLT in unserem Novalnet Adminportal: %(child_tid)s"
+"Betrag am %(amount)s. Bitte entnehmen Sie die TID den Einzelheiten der "
+"Bestellung bei BEZAHLT in unserem Novalnet Adminportal %(child_tid)s"
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_guranteed_invoice
@@ -376,7 +362,12 @@ msgid "DE00 0000 0000 0000 0000 00"
 msgstr ""
 
 #. module: payment_novalnet
-#: model:ir.model.fields,help:payment_novalnet.field_novalnet_payment_method__display_as
+#: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_method__description
+msgid "Description"
+msgstr "Beschreibung"
+
+#. module: payment_novalnet
+#: model:ir.model.fields,help:payment_novalnet.field_novalnet_payment_method__description
 msgid "Description of the novalnet payment types for customers"
 msgstr ""
 
@@ -393,11 +384,6 @@ msgstr ""
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_method__display_as
 msgid "Displayed as"
-msgstr ""
-
-#. module: payment_novalnet
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_confirmation
-msgid "Edit"
 msgstr ""
 
 #. module: payment_novalnet
@@ -421,12 +407,17 @@ msgid "Fees"
 msgstr ""
 
 #. module: payment_novalnet
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_provider_form
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_acquirer_form
 msgid "Get access details"
 msgstr ""
 
 #. module: payment_novalnet
-#: model:ir.model.fields,field_description:payment_novalnet.field_payment_provider__hide_novalnet_tariff
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_link_wizard__hide_novalnet_payment_methods
+msgid "Hide Novalnet Payment Methods"
+msgstr ""
+
+#. module: payment_novalnet
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__hide_novalnet_tariff
 msgid "Hide Novalnet Tariff"
 msgstr ""
 
@@ -494,7 +485,7 @@ msgid "Last Updated on"
 msgstr ""
 
 #. module: payment_novalnet
-#: code:addons/payment_novalnet/models/payment_provider.py:0
+#: code:addons/payment_novalnet/models/payment_acquirer.py:0
 #, python-format
 msgid "Mandatory fields missing"
 msgstr ""
@@ -548,15 +539,21 @@ msgid "No transaction found matching reference %s."
 msgstr ""
 
 #. module: payment_novalnet
-#: model:ir.model.fields,field_description:payment_novalnet.field_payment_provider__novalnet_webhook_url
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_webhook_url
 msgid "Notification / Webhook URL"
 msgstr "Benachrichtigungs- / Webhook-URL"
 
 #. module: payment_novalnet
-#: model:payment.provider,display_as:payment_novalnet.payment_provider_novalnet
-#: model:payment.provider,name:payment_novalnet.payment_provider_novalnet
+#: model:account.payment.method,name:payment_novalnet.payment_method_novalnet
+#: model:payment.acquirer,display_as:payment_novalnet.payment_acquirer_novalnet
+#: model:payment.acquirer,name:payment_novalnet.payment_acquirer_novalnet
 msgid "Novalnet"
-msgstr "Novalnet"
+msgstr ""
+
+#. module: payment_novalnet
+#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_acquirer__provider__novalnet
+msgid "Novalnet AG"
+msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_method_form
@@ -564,7 +561,7 @@ msgid "Novalnet Payment Method"
 msgstr ""
 
 #. module: payment_novalnet
-#: model:ir.model.fields,field_description:payment_novalnet.field_payment_provider__novalnet_payment_methods_ids
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_payment_methods_ids
 msgid "Novalnet Payment Methods"
 msgstr ""
 
@@ -577,13 +574,23 @@ msgstr ""
 #: model:ir.model,name:payment_novalnet.model_novalnet_callback
 #: model:mail.template,name:payment_novalnet.novalnet_callback_notification
 msgid "Novalnet callback"
-msgstr "Novalnet-Rückruf"
+msgstr ""
+
+#. module: payment_novalnet
+#: model:ir.model.fields,help:payment_novalnet.field_novalnet_payment_method__payment_term_id
+msgid "Novalnet due date"
+msgstr ""
 
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_payment_transaction__novalnet_due_date
 msgid ""
 "Novalnet due date for Invoice, Prepayment, DIRECT_DEBIT_SEPA, "
 "GUARANTEED_INVOICE, GUARANTEED_DIRECT_DEBIT_SEPA, cashpayment"
+msgstr ""
+
+#. module: payment_novalnet
+#: model:ir.model,name:payment_novalnet.model_payment_link_wizard
+msgid "Novalnet generate Payment Link"
 msgstr ""
 
 #. module: payment_novalnet
@@ -618,8 +625,14 @@ msgid "Novalnet payment method "
 msgstr ""
 
 #. module: payment_novalnet
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_provider_form
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_link_wizard__available_novalnet_payment_method_ids
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_acquirer_form
 msgid "Novalnet payment methods"
+msgstr ""
+
+#. module: payment_novalnet
+#: model:ir.model.fields,help:payment_novalnet.field_novalnet_payment_method__display_as
+msgid "Novalnet payment types for customers"
 msgstr ""
 
 #. module: payment_novalnet
@@ -694,13 +707,18 @@ msgid "Partner Payment Reference :"
 msgstr "Partner-Zahlungsreferenz:"
 
 #. module: payment_novalnet
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_method_form
-msgid "Payment Name"
-msgstr "Name der Zahlungsart"
+#: model:ir.model,name:payment_novalnet.model_payment_acquirer
+msgid "Payment Acquirer"
+msgstr ""
 
 #. module: payment_novalnet
-#: model:ir.model,name:payment_novalnet.model_payment_provider
-msgid "Payment Provider"
+#: model:ir.model,name:payment_novalnet.model_account_payment_method
+msgid "Payment Methods"
+msgstr ""
+
+#. module: payment_novalnet
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_method_form
+msgid "Payment Name"
 msgstr ""
 
 #. module: payment_novalnet
@@ -719,8 +737,8 @@ msgid "Payment Transaction"
 msgstr ""
 
 #. module: payment_novalnet
-#: model:ir.model.fields,field_description:payment_novalnet.field_payment_provider__novalnet_key_password
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_provider_form
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_key_password
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_acquirer_form
 msgid "Payment access key"
 msgstr "Zahlungs-Zugriffsschlüssel"
 
@@ -764,10 +782,15 @@ msgid "Please use the following payment reference details to pay the amount of"
 msgstr "Bitte verwenden Sie die folgende Zahlungsreferenz, um den Betrag von"
 
 #. module: payment_novalnet
-#: model:ir.model.fields,field_description:payment_novalnet.field_payment_provider__novalnet_public_key
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_provider_form
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_public_key
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_acquirer_form
 msgid "Product activation key"
 msgstr "Produktaktivierungsschlüssel"
+
+#. module: payment_novalnet
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__provider
+msgid "Provider"
+msgstr ""
 
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_transaction_amount_status__refund_amount
@@ -781,8 +804,8 @@ msgid ""
 "Refund has been initiated for the TID: %(parent_tid)s with the amount "
 "%(amount)s. New TID:%(child_tid)s for the refunded amount"
 msgstr ""
-"Die Rückerstattung für die TID: %(parent_tid)s mit dem Betrag %(amount)s "
-"wurde veranlasst. Die neue TID für den erstatteten Betrag lautet: "
+"Die Rückerstattung für die TID: %(parent_tid)s mit dem Betrag  %(amount)s. "
+"wurde veranlasst. Die neue TID für den erstatteten Betrag lautet:"
 "%(child_tid)s"
 
 #. module: payment_novalnet
@@ -792,6 +815,9 @@ msgid ""
 "Refund has been initiated for the TID: %(parent_tid)s with the amount "
 "%(amount)s. The subsequent TID:%(child_tid)s for the refunded amount"
 msgstr ""
+"Die Rückerstattung für die TID: %(parent_tid)s mit dem Betrag %(amount)s. "
+"der Folgebuchung TID:%(child_tid)s für den erstatteten Betrag lautet:"
+"%(child_tid)s"
 
 #. module: payment_novalnet
 #: code:addons/payment_novalnet/models/payment_transaction.py:0
@@ -800,25 +826,26 @@ msgid ""
 "Refund has been initiated for the TID:%(parent_tid)s with the amount "
 "%(amount)s"
 msgstr ""
-"Die Rückerstattung für die TID: %(parent_tid)s mit dem Betrag %(amount)s"
+"Die Rückerstattung für die TID:%(parent_tid)s mit dem Betrag %(amount)s "
+"wurde veranlasst"
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_tokenize
 msgid "Save my payment details"
-msgstr "Speichern für zukünftige Einkäufe"
+msgstr ""
 
 #. module: payment_novalnet
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_provider_form
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_acquirer_form
 msgid "Select Tariff ID"
 msgstr "Auswahl der Tarif-ID"
 
 #. module: payment_novalnet
-#: model:ir.model.fields,field_description:payment_novalnet.field_payment_provider__novalnet_tariff_selection
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_tariff_selection
 msgid "Select Tariff ID "
 msgstr "Auswahl der Tarif-ID "
 
 #. module: payment_novalnet
-#: model:ir.model.fields,help:payment_novalnet.field_payment_provider__novalnet_tariff_selection
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_tariff_selection
 msgid ""
 "Select a Tariff ID to match the preferred tariff plan you created at the "
 "Novalnet Admin Portal for this project"
@@ -827,7 +854,7 @@ msgstr ""
 "im Novalnet Admin-Portal für dieses Projekt erstellt haben"
 
 #. module: payment_novalnet
-#: model:ir.model.fields,field_description:payment_novalnet.field_payment_provider__novalnet_webhook_email
+#: model:ir.model.fields,field_description:payment_novalnet.field_payment_acquirer__novalnet_webhook_email
 msgid "Send emails to"
 msgstr "E-Mails senden an"
 
@@ -849,14 +876,14 @@ msgid "Service supplier ID from Multibanco"
 msgstr ""
 
 #. module: payment_novalnet
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_provider_form
+#: model_terms:ir.ui.view,arch_db:payment_novalnet.payment_acquirer_form
 msgid "Set Notification/Webhook URL"
-msgstr ""
+msgstr "Benachrichtigungs- / Webhook-URL festlegen"
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
-msgid "Slip expiry date :"
-msgstr "Verfallsdatum des Zahlscheins:"
+msgid "Slip expiry date (in days) :"
+msgstr "Verfallsdatum des Zahlscheins (in Tagen) :"
 
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_method__shop_active_status
@@ -885,7 +912,7 @@ msgstr ""
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
 msgid "Store(s) near you"
-msgstr "Barzahlen-Partnerfilialen in Ihrer Nähe"
+msgstr "Barzahlen-Partnerfilialen in Ihrer Nähe:"
 
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_transaction_store__street
@@ -925,7 +952,7 @@ msgstr "Tarif"
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_tariff__tariff_type
 msgid "Tariff Type"
-msgstr ""
+msgstr "Tarif Typ"
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.flow_other_providers_check_out_payments
@@ -935,16 +962,16 @@ msgid "Test Mode"
 msgstr "Testmodus"
 
 #. module: payment_novalnet
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__provider
+msgid "The Payment Service Provider to use with this acquirer"
+msgstr ""
+
+#. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_payment_transaction__novalnet_multibanco_payment_reference
 msgid ""
 "The payment reference for the Multibanco payment type. Using this reference, "
 "the customer pays in online portal or in the Multibanco ATM to complete the "
 "purchase"
-msgstr ""
-
-#. module: payment_novalnet
-#: model:ir.model.fields,help:payment_novalnet.field_payment_provider__code
-msgid "The technical code of this payment provider."
 msgstr ""
 
 #. module: payment_novalnet
@@ -965,13 +992,20 @@ msgstr "Die Buchung wurde am %(datetime)s Uhr bestätigt "
 #: code:addons/payment_novalnet/models/novalnet_callback.py:0
 #, python-format
 msgid "The transaction has been updated with a new due date"
-msgstr "Die Transaktion wurde aktualisiert. Neues Fälligkeitsdatum"
+msgstr "Die Transaktion wurde aktualisiert. Neues Fälligkeitsdatum:"
 
 #. module: payment_novalnet
 #: code:addons/payment_novalnet/models/novalnet_callback.py:0
 #, python-format
 msgid "The transaction has been updated with amount and due date"
-msgstr "Die Transaktion wurde aktualisiert. Neues Fälligkeitsdatum"
+msgstr ""
+"Die Transaktion wurde mit dem Betrag und dem Fälligkeitsdatum aktualisiert."
+
+#. module: payment_novalnet
+#: code:addons/payment_novalnet/models/payment_transaction.py:0
+#, python-format
+msgid "The transaction is not linked to a token."
+msgstr ""
 
 #. module: payment_novalnet
 #: code:addons/payment_novalnet/models/novalnet_callback.py:0
@@ -1011,24 +1045,18 @@ msgid ""
 "%(amount)s on %(datetime)s "
 msgstr ""
 "Transaktion mit TID: %(parent_tid)s und Betrag %(amount)s wurde am "
-"%(datetime)s erfolgreich aktualisiert. "
+"%(datetime)s erfolgreich aktualisiert "
 
 #. module: payment_novalnet
 #: code:addons/payment_novalnet/models/payment_transaction.py:0
 #, python-format
 msgid "Unauthorized request from IP %s"
-msgstr "Unauthorized request from IP %s"
+msgstr "Nicht autorisierter Zugriff von IP %s"
 
 #. module: payment_novalnet
 #: code:addons/payment_novalnet/controllers/main.py:0
 #, python-format
 msgid "Unknown error occured please try after some time"
-msgstr ""
-
-#. module: payment_novalnet
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.flow_other_providers_check_out_payments
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_methods
-msgid "Unpublished"
 msgstr ""
 
 #. module: payment_novalnet
@@ -1059,43 +1087,51 @@ msgstr ""
 #. module: payment_novalnet
 #: code:addons/payment_novalnet/models/payment_transaction.py:0
 #, python-format
-msgid "You selected the following demo payment status: %s"
+msgid "You selected the following novalnet payment status: %s"
 msgstr ""
 
 #. module: payment_novalnet
-#: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_confirmation
-#: model_terms:payment.provider,auth_msg:payment_novalnet.payment_provider_novalnet
+#: model_terms:payment.acquirer,auth_msg:payment_novalnet.payment_acquirer_novalnet
 msgid "Your payment has been authorized."
 msgstr ""
 
 #. module: payment_novalnet
-#: model_terms:payment.provider,cancel_msg:payment_novalnet.payment_provider_novalnet
+#: model_terms:payment.acquirer,cancel_msg:payment_novalnet.payment_acquirer_novalnet
 msgid "Your payment has been cancelled."
 msgstr ""
 
 #. module: payment_novalnet
-#: model_terms:payment.provider,pending_msg:payment_novalnet.payment_provider_novalnet
+#: model_terms:payment.acquirer,pending_msg:payment_novalnet.payment_acquirer_novalnet
 msgid ""
 "Your payment has been successfully processed but is waiting for approval."
 msgstr ""
 
 #. module: payment_novalnet
-#: model_terms:payment.provider,done_msg:payment_novalnet.payment_provider_novalnet
+#: model_terms:payment.acquirer,done_msg:payment_novalnet.payment_acquirer_novalnet
 msgid "Your payment has been successfully processed. Thank you!"
 msgstr ""
 
 #. module: payment_novalnet
-#: model:ir.model.fields,help:payment_novalnet.field_payment_provider__novalnet_public_key
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_public_key
 msgid ""
 "Your product activation key is a unique token for merchant authentication "
 "and payment processing. "
 msgstr ""
+"Ihr Produktaktivierungsschlüssel ist ein eindeutiger Token für die "
+"Händlerauthentifizierung und Zahlungsabwicklung "
 
 #. module: payment_novalnet
-#: model:ir.model.fields,help:payment_novalnet.field_payment_provider__novalnet_key_password
+#: model:ir.model.fields,help:payment_novalnet.field_payment_acquirer__novalnet_key_password
 msgid ""
 "Your secret key used to encrypt the data to avoid user manipulation and "
 "fraud."
+msgstr ""
+"Ihr geheimer Schlüssel zur Verschlüsselung der Daten, um Manipulation und "
+"Betrug zu vermeiden."
+
+#. module: payment_novalnet
+#: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_method__acquirer_id
+msgid "acquirer"
 msgstr ""
 
 #. module: payment_novalnet
@@ -1122,24 +1158,14 @@ msgid "error_message"
 msgstr ""
 
 #. module: payment_novalnet
-#: model:ir.model.fields.selection,name:payment_novalnet.selection__payment_provider__code__novalnet
-msgid "novalnet"
-msgstr "novalnet"
-
-#. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
 msgid "on or before"
-msgstr "spätestens bis zum"
-
-#. module: payment_novalnet
-#: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_method__provider_id
-msgid "provider"
 msgstr ""
 
 #. module: payment_novalnet
 #: model_terms:ir.ui.view,arch_db:payment_novalnet.novalnet_payment_information
 msgid "to the following account"
-msgstr "auf das folgende Konto"
+msgstr ""
 
 #. module: payment_novalnet
 #: code:addons/payment_novalnet/controllers/main.py:0
