@@ -64,7 +64,7 @@
                 </ul>
               </t>
         </t>
-
+     </template>
 
     <template id="novalnet_checkout_inline_form" name="Novalnet Payment Checkout" inherit_id="payment.checkout">
       <xpath expr="." position="inside">
