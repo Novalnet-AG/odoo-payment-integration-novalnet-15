@@ -1176,4 +1176,4 @@ msgstr ""
 #. module: payment_novalnet
 #: model:ir.model.fields,field_description:payment_novalnet.field_novalnet_payment_transaction_store__zip
 msgid "zip"
-msgstr ""
+msgstr "" 
