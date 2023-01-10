@@ -6,24 +6,6 @@
           window.location.href = '/shop/payment';
       </script>
   </template>
-
-  <template id="novalnet_sale_order_portal_content" name="novalnet inherit sale portal " inherit_id="sale.sale_order_portal_content">
-    <xpath expr="//*[@id='terms']" position="before">
-      <t t-if="sale_order.transaction_ids">
-
-          <t t-set="payment_tx_id" t-value="sale_order.get_portal_last_transaction()"/>
-          <t t-set="order" t-value="sale_order"/>
-
-          <section t-if="payment_tx_id.acquirer_id.code == 'novalnet'" id="payment-info" class="mt-5">
-            <h3 class="">Payment information</h3>
-            <hr class="mt-0 mb-1"/>
-            <t t-call="payment_novalnet.novalnet_payment_information"></t>
-          </section>
-      </t>
-
-    </xpath>
-  </template>
-
   <template id="novalnet_redirect_form">
       <form t-att-action="redirect_url" method="post">
       </form>
